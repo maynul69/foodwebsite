@@ -5,11 +5,14 @@
 .body{
     font-family: 'Merriweather', serif;
 }
-.banner1{
+.flex{
     display: flex;
     align-items: center;
     /* padding-top: 50px; */
     height: 100vh;
+}
+.skip{
+    color: orange;
 }
 .banner1half{
     width: 45%;
@@ -24,11 +27,23 @@
 .banner1half p{
     font-size: 20px;
 }
-.banner1half a{
+.btn{
     text-decoration: none;
     padding: 17px 30px;
     background-image: linear-gradient(to right, orange,tomato);
     color: aliceblue;
-    border
-}   
- 
+}  
+.banner2half{
+    width: 40%;
+    margin-left: 5px;
+    margin-right: 5px;
+
+}
+.banner2half img{
+    width: 74%;
+    margin-top: 5px;
+}
+.about{
+    background-image: url(images/shapes/Frame\ 59.jpg);
+    background-repeat: no-repeat;
+}
